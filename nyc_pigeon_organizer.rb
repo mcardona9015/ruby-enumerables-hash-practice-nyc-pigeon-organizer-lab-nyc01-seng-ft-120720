@@ -9,8 +9,8 @@ def nyc_pigeon_organizer(data)
         end
         if !organized_data[name][attribute]
           organized_data[name][attribute] = []
-
         end
+        organized_data[name][attribute] << attribute_value
       end
     end
   end
